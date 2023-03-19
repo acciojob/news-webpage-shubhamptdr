@@ -8,6 +8,7 @@ body {
   width: 98%;
   margin: auto;
 }
+
 header {
   font-size: 35px;
   font-family: sans-serif;
@@ -26,22 +27,26 @@ header {
   align-items: flex-start;
   gap: 10px;
 }
+
 .div {
   background-color: white;
   border-radius: 25px;
 }
+
 h2 {
   font-size: 25px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
 }
-.col1 {
+
+.latest-news-section {
   width: 30%;
   display: flex;
   flex-direction: column;
   padding: 45px 20px;
   gap: 20px;
 }
+
 .col2 {
   width: 40%;
   display: flex;
@@ -50,7 +55,7 @@ h2 {
   gap: 20px;
 }
 
-.col3 {
+.pictorial-news-section {
   width: 30%;
   display: flex;
   flex-direction: column;
@@ -58,24 +63,26 @@ h2 {
   gap: 20px;
 }
 
-.col3 ul {
+.pictorial-news-section ul {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.col1 ul {
+.latest-news-section ul {
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
   left: -30px;
 }
-.col1 ul::marker {
+
+.latest-news-section ul::marker {
   margin-right: 20px;
 }
-.col1 ul li,
+
+.latest-news-section ul li,
 p {
   font-size: 18px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
