@@ -61,6 +61,7 @@ h2 {
   flex-direction: column;
   padding: 45px 25px;
   gap: 20px;
+  text-align: center;
 }
 
 .pictorial-news-section ul {
